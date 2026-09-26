@@ -1,0 +1,21 @@
+export const programs = [
+  {
+    id: 'math-app',
+    nameRu: 'MathApp — Счёт в пределах 5',
+    nameKz: 'MathApp — 5-ке дейін санау',
+    nameEn: 'MathApp — Counting to 5',
+    descRu: 'Обучающее приложение по математике для 1 класса. Пять ступеней: от простых примеров до контрольной работы с таймером.',
+    descKz: '1-сыныпқа арналған математика оқу қосымшасы. Бес саты: қарапайым мысалдардан таймермен бақылау жұмысына дейін.',
+    descEn: 'Educational math app for 1st grade. Five stages: from simple examples to a timed test.',
+    downloadUrl: null,
+    googlePlayUrl: null,
+    microsoftStoreUrl: null,
+    appStoreUrl: null,
+    lemonSqueezyUrl: null,
+    prices: {
+      private:   { 1: 1500, 3: 3900, 6: 6900, 12: 11900 },
+      corporate: { 1: 5000, 3: 13500, 6: 24000, 12: 42000 },
+    },
+    minCorporateSeats: 5,
+  },
+];
